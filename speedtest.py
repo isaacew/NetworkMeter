@@ -24,7 +24,3 @@ except:
     pass
 
 f.write('{},{},{},{},{}\r\n'.format(time.strftime('%m/%d/%y'), time.strftime('%H:%M'), ping, download, upload))
-
-os.system("git add .")
-os.system("git commit -m 'added data'")
-os.system("git push")
